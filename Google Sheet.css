@@ -1,0 +1,66 @@
+/* Reset styles for all elements */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    font-size: 18px;
+  }
+  
+  /* Styling for the body */
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('bg.png'); /* Background image of a brown cake */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Container styling */
+  .container {
+    width: 500px;
+    padding: 30px;
+    border: 1px solid #663300; /* Dark brown border */
+    border-radius: 20px;
+    background-color: #c2b280; /* Brown cake color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: auto; /* Move the container to the right */
+    margin-right: 20px; /* Add right margin for spacing */
+  }
+  
+  /* Heading styling */
+  h4 {
+    margin-bottom: 20px; /* Increased margin for spacing */
+    font-size: 28px; /* Larger font size for heading */
+    color: #663300; /* Dark brown text color */
+  }
+  
+  /* Input styling */
+  input,
+  textarea {
+    width: 100%;
+    padding: 12px; /* Increased padding for input fields */
+    margin-bottom: 20px; /* Increased margin for spacing */
+    border: 1px solid #996633; /* Light brown border */
+    border-radius: 10px;
+  }
+  
+  /* Button styling */
+  #submit {
+    border: none;
+    background-color: #339966; /* Green cream color */
+    color: white;
+    width: 100%;
+    padding: 15px; /* Increased padding for button */
+    margin-top: 20px; /* Increased margin for spacing */
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  /* Button hover effect */
+  #submit:hover {
+    background-color: #2e856e; /* Darker green color on hover */
+  }
+  
