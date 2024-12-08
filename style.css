@@ -55,7 +55,7 @@ section {
 
 /* Home Section Styling */
 #home {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('img/bg.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('bg.png');
     background-size: cover;
     background-position: center;
     display: flex;
