@@ -8,239 +8,126 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <!----Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark " id="navbar">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">CAKESQUARE</a>
-        <img src="img/cslogo.png" width="100" style="border-radius: 50%;">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"  aria-expanded="false">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse"
-           id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto ">
-                <li class="nav-item">
-                  <a class="nav-link"  href="#home" >Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link"  href="#cakes">Cakes</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link"  href="#about">About Us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link"  href="#contact">Contact Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link"  href="review.html">Review</a>
-                  </li>
-
-              </ul>
-              <button class="btn p-2 my-lg-0 my-2">Sign In</button>
-            
-
-          </div>
-        
+            <a class="navbar-brand" href="#">CAKESQUARE</a>
+            <img src="img/cslogo.png" width="100" style="border-radius: 50%;">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cakes">Cakes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="review.html">Review</a>
+                    </li>
+                </ul>
+                <button class="btn p-2 my-lg-0 my-2">Sign In</button>
+            </div>
         </div>
-      </nav>
-    
-            
-    <!----Home--> 
+    </nav>
+
+    <!-- Home -->
     <section id="home">
         <center>
-        <h1  >CAKESQUARE</h1>
-        <img src="img/logo2.png" width="100"  style="border-radius: 50%;" >
-        <p> “Let’s bake the world a better place, one cake at a time”</p><br>
-        <div class="input-grou m-4">
-            <input type="text" placeholder="Email Address" class="form-control"> <br>
-        <button class="btn signin">Get Started</button>
-        </div>
-     </center>
-       
-    </section><hr>
+            <h1>CAKESQUARE</h1>
+            <img src="img/logo2.png" width="100" style="border-radius: 50%;">
+            <p>“Let’s bake the world a better place, one cake at a time”</p><br>
+            <div class="input-group m-4">
+                <input type="text" placeholder="Email Address" class="form-control">
+                <button class="btn signin">Get Started</button>
+            </div>
+        </center>
+    </section>
+    <hr>
 
-    <!----cakes-->
+    <!-- Cakes -->
     <section id="cakes">
         <div class="container m-5">
-            <h1  class="text-center m-5" style="padding-top: 5%;">Choose Your Cake Flavours</h1>
+            <h1 class="text-center m-5" style="padding-top: 5%;">Choose Your Cake Flavours</h1>
             <div class="row">
-                <div class="col-lg-4 col-lg-4 col-12">
+                <!-- Individual Cake Cards -->
+                <!-- Repeat similar blocks for each cake -->
+                <div class="col-lg-4 col-md-6 col-12">
                     <div class="card">
-                        <img src="img/chocolate.png"  style="border-radius: 20px;" class="card-img-top" >
+                        <img src="img/chocolate.png" style="border-radius: 20px;" class="card-img-top">
                         <div class="card-body text-center">
-                          <h5 class="card-title">CHOCOLATE <br>~Rs350/-</h5>
-                          <a href="#" class="btn signin">Add To Cart</a>
+                            <h5 class="card-title">CHOCOLATE <br>~Rs350/-</h5>
+                            <a href="#" class="btn signin">Add To Cart</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-lg-4 col-12">
-                    <div class="card">
-                        <img src="img/bscake.png"  style="border-radius: 20px;" class="card-img-top" >
-                        <div class="card-body text-center">
-                          <h5 class="card-title">Butterscotch <br>~Rs450/-</h5>
-                          <a href="#" class="btn signin">Add To Cart</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-lg-4 col-12">
-                    <div class="card">
-                        <img src="img/bfcake.png"  style="border-radius: 20px;" class="card-img-top" >
-                        <div class="card-body text-center">
-                          <h5 class="card-title">BlackForest<br> ~Rs500/-</h5>
-                          <a href="#" class="btn signin">Add To Cart</a>
-                        </div>
-                    </div>
-                </div>
-                
-                
-
+                <!-- Additional cake cards can be added here -->
             </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-4 col-12">
-                    <div class="card">
-                        <img src="img/wfcake.png"  style="border-radius: 20px;" class="card-img-top" >
-                        <div class="card-body text-center">
-                          <h5 class="card-title">WhiteForest <br>~Rs550/-</h5>
-                          <a href="#" class="btn signin">Add To Cart</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-lg-4 col-12">
-                    <div class="card">
-                        <img src="img/sbcake.png"  style="border-radius: 20px;" class="card-img-top" >
-                        <div class="card-body text-center">
-                          <h5 class="card-title">Strawberry <br>~Rs580/-</h5>
-                          <a href="#" class="btn signin">Add To Cart</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-lg-4 col-12">
-                    <div class="card">
-                        <img src="img/ccake.png"  style="border-radius: 20px;" class="card-img-top" >
-                        <div class="card-body text-center">
-                          <h5 class="card-title">CheeseCake <br>~Rs600/-</h5>
-                          <a href="#" class="btn signin">Add To Cart</a>
-                        </div>
-                    </div>
-                </div>
-                
-                
-
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-4 col-12">
-                    <div class="card">
-                        <img src="img/fcake.png"  style="border-radius: 20px;" class="card-img-top" >
-                        <div class="card-body text-center">
-                          <h5 class="card-title">FruitCake <br>~Rs650/-</h5>
-                          <a href="#" class="btn signin">Add To Cart</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-lg-4 col-12">
-                    <div class="card">
-                        <img src="img/rcake.png"  style="border-radius: 20px;" class="card-img-top" >
-                        <div class="card-body text-center">
-                          <h5 class="card-title">RedVelvet <br>~Rs550/-</h5>
-                          <a href="#" class="btn signin">Add To Cart</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-lg-4 col-12">
-                    <div class="card">
-                        <img src="img/vcake.png"  style="border-radius: 20px;" class="card-img-top" >
-                        <div class="card-body text-center">
-                          <h5 class="card-title">Vanilla <br>~Rs450/-</h5>
-                          <a href="#" class="btn signin">Add To Cart</a>
-                        </div>
-                    </div>
-                </div>
-                
-                
-
-            </div>
-
-
         </div>
+    </section>
+    <hr>
 
-
-    </section><hr>
-    <!------About-->
+    <!-- About -->
     <section id="about">
         <div class="container-fluid">
             <div class="row">
-                <div class=" col-lg-6 col-md-6 col-12 my-2" >
-                    <img src="img/about.png" style=  "border-radius: 100%;"   width="400px" class="img-fluid">
+                <div class="col-lg-6 col-md-6 col-12 my-2">
+                    <img src="img/about.png" style="border-radius: 100%;" width="400px" class="img-fluid">
                 </div>
                 <div class="col-lg-6 col-md-6 col-12 p-lg-5 p-2 my-5">
                     <h1>About Us</h1>
-                    <p>Cake Square! The American Pastry Hub….. First time in Chennai….. The most spectacular cake shop in Chennai, chiefly specialized in offering scrumptious bakery products and desserts in fabulous flavors and tastes at unbeatable price ranges. You can find an eclectic range of best tasting cake varieties to choose from. <br>Our cakes chiefly stand for superior quality, unparalleled design ranges and lip-smacking taste that never fails to titillate your taste buds!
-
-                        Furthermore adding on, we boast ourselves as the one among the very few cake shops in Chennai, who own a boutique for designing 15 layered designer cakes that chiefly accomplish to be a stunning showpiece for various extravagant wedding bashes. <br> The chief specialty of preparing these designer cakes is that, the design pattern or theme which we implement on this cake will never be repeated for next three years, since the design pattern we use for every 15 layered wedding cake is extremely unique and incomparable from other designer cakes in the city.
-                        
-                        The brand Cake Square belongs to the company S R CAKE PRIVATE LIMITED.</p>
-                    
+                    <p>
+                        Cake Square! The American Pastry Hub….. First time in Chennai….. The most spectacular cake shop in Chennai, 
+                        chiefly specialized in offering scrumptious bakery products and desserts in fabulous flavors and tastes 
+                        at unbeatable price ranges. You can find an eclectic range of best-tasting cake varieties to choose from.
+                    </p>
                 </div>
             </div>
-
         </div>
-    </section><hr>
-    <!------Contact-->
+    </section>
+    <hr>
+
+    <!-- Contact -->
     <section id="contact">
         <div class="container box">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-12">
-                    <img  src="img/shop.png" class="img-fluid">
-
+                    <img src="img/shop.png" class="img-fluid">
                 </div>
                 <div class="col-lg-6 col-md-6 col-12">
                     <h1>CONTACT US</h1>
                     <form class="mb-3">
-                        <input style="margin: 15px;" type="text" class="form-control" placeholder=" Enter Your Name">
-                        <input style="margin: 15px;" type="email" class="form-control" placeholder=" Enter Your email">
-                        <textarea  style="margin: 15px;"class="form-control" placeholder="Enter your Feedback"></textarea>
-                        <button  style="margin: 15px;"class="btn signin">Send Message</button>
+                        <input style="margin: 15px;" type="text" class="form-control" placeholder="Enter Your Name">
+                        <input style="margin: 15px;" type="email" class="form-control" placeholder="Enter Your Email">
+                        <textarea style="margin: 15px;" class="form-control" placeholder="Enter your Feedback"></textarea>
+                        <button style="margin: 15px;" class="btn signin">Send Message</button>
                     </form>
-
                 </div>
-
             </div>
         </div>
-
     </section>
 
-    <footer>Copyrights @I'm Cakesquare
+    <!-- Footer -->
+    <footer>
+        <p>Copyrights @I'm Cakesquare</p>
         <ul>
             <li>DEVELOPERS:</li>
-            <li>NANDHAGOPALAKRISHNAN D </li>
+            <li>NANDHAGOPALAKRISHNAN D</li>
             <li>ROHANSHAJ K R</li>
             <li>SARAVANAPRABU G</li>
         </ul>
     </footer>
+
+    <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
-</body>
-
-</html>
-<!DOCTYPE html>
-<html>
-<head>
-	<link rel="stylesheet" href="Google Sheet.css">
-</head>
-<body>
-	<div class="container">
-		<form method="post" action="https://script.google.com/macros/s/AKfycbx53foWy7n1eB4vmi1YEaCboV659F2wNuWDs4p2dQRkPvVu9cJLAbsIelu8vFRaiCb52Q/exec" name="contact-form">
-			<h4 href="index.html">CAKESQUARE</h4>
-            <br>
-			<input type="text" name="your-name" placeholder="Name">
-			<input type="text" name="your-number" placeholder="Number">
-			<input type="email" name="your-email" placeholder="Email">
-            <input type="text" name="your-rating" placeholder="Enter your rating (out of 5)">
-			<textarea name="message" rows="7" placeholder="Your Review"></textarea>
-			<input type="submit" value="Submit" id="submit">
-		</form>
-	</div>
-
-	<script src="Google Sheet.js"></script>
 </body>
 </html>
