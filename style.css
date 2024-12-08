@@ -1,231 +1,206 @@
-/* General styles */
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
+/* General Styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Edu+NSW+ACT+Foundation:wght@400&family=Indie+Flower&display=swap');
 
-/* Navbar styling */
-#navbar {
-    background-color: #2c3e50;
-}
-
-/* Home Section Styling */
-#home {
-    background-image: url('bg.jpg'); /* Replace 'bg.jpg' with your background image */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-#home h1 {
-    font-size: 4rem;
-    margin-bottom: 20px;
-}
-
-#home p {
-    font-size: 1.5rem;
-}
-
-/* Sign In button */
-.signin {
-    background-color: #e74c3c;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.signin:hover {
-    background-color: #c0392b;
-}
-
-/* Footer styling */
-footer {
-    background-color: #2c3e50;
-    color: white;
-    padding: 20px 0;
-    font-size: 0.9rem;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-#navbar{
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styling */
+#navbar {
     position: sticky;
     top: 0;
     left: 0;
     z-index: 100;
-    box-shadow: 5px 5px 20px rgba(0, 0,0,.5);
-    background: black;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+    background-color: black;
 }
+
 .navbar .navbar-brand {
     font-size: 25px;
     font-weight: 800;
     color: chartreuse !important;
 }
-#navbarSupportedContent a{
+
+#navbarSupportedContent a {
     color: white;
     border-bottom: 2px solid transparent;
-   
 }
-#navbarSupportedContent a:hover{
+
+#navbarSupportedContent a:hover {
     border-bottom: 2px solid chartreuse;
 }
-#navbarSupportedContent button{
+
+#navbarSupportedContent button {
     background: chartreuse;
     width: 5rem;
     border-radius: 15px;
-
 }
-section{
+
+/* Section Base Styling */
+section {
     width: 100%;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-/*****Home****/
 
-#home{
-    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.7)) ,url(img/bg.png);
-    display: flex;
-    background-size:cover;
+/* Home Section Styling */
+#home {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('img/bg.png');
+    background-size: cover;
     background-position: center;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
 }
 
-#home h1{
+#home h1 {
     font-size: 70px;
-    color:chartreuse;
+    color: chartreuse;
     font-family: "Edu NSW ACT Foundation", cursive;
-    padding: 80%;
-    padding-top: 40%;
-    
-
-    text-shadow: 0px 1px 0px black,
-                  0px 2px 0px black,
-                  0px 3px 0px black,
-                  0px 4px 0px black,
-                  0px 5px 0px black,
-                  0px 6px 0px black;
-
+    text-shadow: 0px 1px 0px black, 0px 2px 0px black, 0px 3px 0px black, 0px 4px 0px black, 0px 5px 0px black;
 }
 
-#home p{
+#home p {
     font-size: 18px;
-    color:chartreuse;
+    color: chartreuse;
 }
-#home .input-group{
 
+#home .input-group {
     width: 70%;
     height: 40px;
-    padding-bottom: 20%;
+    margin-top: 20px;
 }
-.signin{
-    background:chartreuse !important ;
-    box-shadow: 2px 4px 5px rgba(0, 0,0,.5);
-}
-/*****About****/
-#about{
-    background: linear-gradient( to right,#ea1d6f,#eb466b 100%);
 
-      
+.signin {
+    background: chartreuse !important;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
 }
-#about h1{
+
+.signin:hover {
+    background: #a6e22e;
+}
+
+/* About Section Styling */
+#about {
+    background: linear-gradient(to right, #ea1d6f, #eb466b 100%);
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#about h1 {
     font-weight: 800;
     font-size: 50px;
-    color: white;
-    padding-top: 30%;
-}
-#about p{
-    color: white;
-    
-
-}
-#about img{
-     padding-top: 30%;
+    margin-bottom: 20px;
 }
 
+#about p {
+    line-height: 1.6;
+    margin: 0 20px;
+}
 
-/****Cakes***/
-#cakes{
+#about img {
+    border-radius: 50%;
+    margin-top: 20px;
+    max-width: 400px;
+}
+
+/* Cakes Section Styling */
+#cakes {
     background: #e5e5e5;
+    padding: 50px 0;
 }
-#cakes h1{
+
+#cakes h1 {
     font-size: 50px;
     letter-spacing: 2px;
     font-weight: 700;
     font-family: "Indie Flower", cursive;
-    
-    text-shadow: 0px 1px 0px yellow,
-                  0px 2px 0px yellow,
-                  0px 3px 0px yellow,
-                  0px 4px 0px yellow,
-                  0px 5px 0px yellow,
-                  0px 6px 0px yellow;
-
-    
+    text-shadow: 0px 1px 0px yellow, 0px 2px 0px yellow, 0px 3px 0px yellow;
+    text-align: center;
+    margin-bottom: 30px;
 }
-#cakes img{
+
+#cakes img {
     width: 200px;
     height: 200px;
+    border-radius: 20px;
 }
-.card{
+
+.card {
     width: 250px;
     height: 350px;
     background: #e5e5e5 !important;
     border: none !important;
-    box-shadow: 15px 20px 20px rgba(0,0,0,.3),
-                inset 4px 4px 10px white;
+    box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.3), inset 4px 4px 10px white;
     border-radius: 20px !important;
     overflow: hidden;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 60px;
-}
-.card:hover{
-    box-shadow:  inset 5px 5px 10px rgba(0,0,0,.3),
-                 inset -4px -4px 10px white;
-    transition: .2s;
-
-
-}
-/*****contact***/
-#contact img{
-    height: 100%;
-    width: 100%;
-    box-shadow: 2px 4px 5px rgba(0, 0,0,.5),
-                inset 4px 4px 10px white;
-    border-radius: 20px;
-}
-.box{
-    width: 80% !important;
-    margin-top: 10px;
-
-}
-form{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
 }
-footer{
-    width: 100%;
+
+.card:hover {
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.3), inset -4px -4px 10px white;
+    transition: 0.2s;
+}
+
+/* Contact Section Styling */
+#contact img {
     height: 100%;
-    background: rgba(0,0,0,.7);
-    margin: -30px;
-    text-align: center;
-    color:yellow;
-    padding: 3px;
+    width: 100%;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.5), inset 4px 4px 10px white;
+    border-radius: 20px;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
 
+form input, form textarea, form button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+form button {
+    background: chartreuse;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #a6e22e;
+}
+
+/* Footer Styling */
+footer {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    color: yellow;
+    padding: 20px;
+    font-size: 0.9rem;
+}
